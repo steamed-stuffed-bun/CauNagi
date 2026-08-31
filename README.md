@@ -189,3 +189,7 @@ Each iteration writes staged data, iDREM inputs/results, graph edges, representa
 - The two distance modules are intentionally kept synchronized because different parts of the pipeline import each one.
 - A later iteration consumes the previous iteration's staged data and `geneWeight` layer.
 - Do not commit passwords, access tokens, private datasets, checkpoints, or iDREM reference archives.
+
+## License
+
+This project is released under the MIT License. See [`LICENSE`](LICENSE) for the full license text.
