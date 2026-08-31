@@ -1,7 +1,6 @@
 # CauNagi
 CauNagi is a causal representation learning and temporal regulatory analysis framework for multi-stage single-cell transcriptomic data. The core workflow combines causal concept disentanglement, Gaussian diffusion, stage-wise clustering, temporal graph construction, iDREM analysis, iterative `geneWeight` updates, and static/dynamic marker discovery.
 
-This repository contains the complete contents of the project's `Main` folder. Perturbation simulation, drug-response simulation, CMAP analysis, and other unrelated experimental code are not part of the core pipeline.
 
 ## Core modules
 
