@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Local datasets, checkpoints, and generated artifacts
+*.h5ad
+*.h5
+*.pt
+*.pth
+*.npy
+*.npz
+*.pkl
+*.log
+
+# Local credentials and editor files
+.env
+.vscode/
+.idea/
+
