@@ -1,0 +1,13 @@
+filename,celltype_path,involved_celltypes
+0-1n2.txt_viz,CD4+ T ¡ú CD4+ T,CD4+ T
+1-5.txt_viz,NK ¡ú NK,NK
+10-12.txt_viz,Platelet ¡ú Platelet,Platelet
+11-11.txt_viz,HSPC ¡ú HSPC,HSPC
+2-3.txt_viz,Monocyte ¡ú Monocyte,Monocyte
+3-8.txt_viz,B ¡ú B,B
+4-0.txt_viz,CD8+ T ¡ú CD8+ T,CD8+ T
+5-4.txt_viz,CD4+ T/CD8+ T ¡ú CD4+ T/CD8+ T,CD4+ T+CD8+ T
+6-6.txt_viz,Eryp/CD4+ T ¡ú MEP/Eryp,CD4+ T+Eryp+MEP
+7-9.txt_viz,Neutrophil ¡ú Neutrophil,Neutrophil
+8-7.txt_viz,GMP ¡ú GMP,GMP
+9-10.txt_viz,Eryp ¡ú Eryp,Eryp
