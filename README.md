@@ -5,12 +5,12 @@ CauNagi is a causal representation learning and temporal regulatory analysis fra
 
 ## Repository layout
 
-All project code and analysis resources are kept in `Main_code/`. This root `README.md` is the only project document kept outside that directory.
+The core package files are kept in `Main_code/`. Downstream analysis folders are kept at the repository root so that they can be managed independently from the core implementation. This root `README.md` is the only project document kept outside those code directories.
 
 ```text
 CauNagi/
 ├── README.md
-└── Main_code/
+├── Main_code/
     ├── __init__.py
     ├── caunagi_main.py
     ├── trainer.py
@@ -20,10 +20,13 @@ CauNagi/
     ├── buildGraph.py
     ├── processIDREM.py
     ├── processTFs.py
-    ├── Candidate_Regulator_Screening/
-    ├── cascade_classification/
-    └── docs/
+    └── ...
+├── Candidate_Regulator_Screening/
+├── cascade_classification/
+└── docs/
 ```
+
+`Candidate_Regulator_Screening/`, `cascade_classification/`, and `docs/` contain downstream analysis scripts, tables, and documentation assets rather than the core package modules.
 
 ## Core modules
 
