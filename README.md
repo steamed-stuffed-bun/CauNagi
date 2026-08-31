@@ -3,22 +3,43 @@ CauNagi is a causal representation learning and temporal regulatory analysis fra
 
 <img width="3452" height="3697" alt="图片" src="https://github.com/user-attachments/assets/82949673-f53f-49cc-a078-80db33910a0c" />
 
+## Repository layout
+
+All project code and analysis resources are kept in `Main_code/`. This root `README.md` is the only project document kept outside that directory.
+
+```text
+CauNagi/
+├── README.md
+└── Main_code/
+    ├── __init__.py
+    ├── caunagi_main.py
+    ├── trainer.py
+    ├── Module.py
+    ├── runner.py
+    ├── utils.py
+    ├── buildGraph.py
+    ├── processIDREM.py
+    ├── processTFs.py
+    ├── Candidate_Regulator_Screening/
+    ├── cascade_classification/
+    └── docs/
+```
 
 ## Core modules
 
 | Module | Purpose |
 |---|---|
-| `caunagi_main.py` | Public `Caunagi` API |
-| `trainer.py` / `Module.py` | Diffusion model and training loop |
-| `runner.py` | One complete CauNagi iteration |
-| `utils.py` | Data loading and shared utilities |
-| `CPO_utils.py` | Clustering parameter optimization |
-| `buildGraph.py` / `distDistance.py` | Temporal graph construction and cluster distances |
-| `processIDREM.py` / `processTFs.py` | iDREM execution and TF/target-gene parsing |
-| `attribute_utils.py` | AnnData attributes and dataset merging |
-| `dynamic_markers.py` | Dynamic progression marker discovery |
-| `hierachical_static_markers.py` | Hierarchical static marker discovery |
-| `get_driver.py` | Post-hoc marker analysis entry point |
+| `Main_code/caunagi_main.py` | Public `Caunagi` API |
+| `Main_code/trainer.py` / `Main_code/Module.py` | Diffusion model and training loop |
+| `Main_code/runner.py` | One complete CauNagi iteration |
+| `Main_code/utils.py` | Data loading and shared utilities |
+| `Main_code/CPO_utils.py` | Clustering parameter optimization |
+| `Main_code/buildGraph.py` / `Main_code/distDistance.py` | Temporal graph construction and cluster distances |
+| `Main_code/processIDREM.py` / `Main_code/processTFs.py` | iDREM execution and TF/target-gene parsing |
+| `Main_code/attribute_utils.py` | AnnData attributes and dataset merging |
+| `Main_code/dynamic_markers.py` | Dynamic progression marker discovery |
+| `Main_code/hierachical_static_markers.py` | Hierarchical static marker discovery |
+| `Main_code/get_driver.py` | Post-hoc marker analysis entry point |
 
 ## Installation
 
@@ -78,7 +99,7 @@ Run the following from the directory that contains the cloned repository. Replac
 from pathlib import Path
 import numpy as np
 
-from CauNagi import Caunagi
+from Main_code import Caunagi
 
 input_dir = Path("input_data")
 temp_dir = Path("caunagi_run")
