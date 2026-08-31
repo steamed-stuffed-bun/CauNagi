@@ -64,7 +64,7 @@ python -c "import torch; print(torch.__version__); print(torch.cuda.is_available
 The full training workflow is designed for a CUDA-capable GPU, but the API can use CPU when CUDA is unavailable. Java is also required for iDREM:
 
 ```powershell
-java -version
+java -version 1.7
 ```
 
 ## Input data
@@ -78,6 +78,7 @@ input_data/
 ├── 2.h5ad    # Another disease state or disease stage
 └── ...
 ```
+Each numbered .h5ad file represents one disease state, with the filename defining its order; a file may contain multiple cell types, but all cells must belong to that state.
 
 Each numbered `.h5ad` file represents one disease state, with the filename defining its order; a file may contain multiple cell types, but all cells must belong to that state.
 
@@ -107,6 +108,11 @@ concept_cdag = np.zeros(
 ## iDREM requirements
 
 `run_caunagi()` requires an iDREM directory containing `idrem.jar`, `example_settings.txt`, and the required Human or Mouse reference files, including TF-gene interactions and gene annotations. Java must be available on `PATH`.
+Install the iDREM to the source folder of UNAGI
+
+- Java To use iDREM, a version of Java 1.7 (64-bit) or later must be installed. If Java (64-bit) 1.7 or later is not currently installed, please refer to http://www.java.com for installation instructions.
+
+- JavaScript To enable the interactive visualization powered by Javascript. (The users are still able to run the software off-line, but Internet access is needed to view the result interactively.)
 
 ## Minimal usage
 
