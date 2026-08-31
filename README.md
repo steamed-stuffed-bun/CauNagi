@@ -73,12 +73,26 @@ The input directory passed to `process_data()` must contain one AnnData file per
 
 ```text
 input_data/
-├── 0.h5ad
-├── 1.h5ad
+├── 0.h5ad    # One disease state, for example healthy/control
+├── 1.h5ad    # Another disease state or disease stage
+├── 2.h5ad    # Another disease state or disease stage
 └── ...
 ```
 
-Every file must contain an expression matrix in `adata.X`, consistent `adata.var_names`, and a `CellType` column in `adata.obs`. Columns named in `concept_list` must also exist in `adata.obs`.
+Each numbered `.h5ad` file represents one disease state or one disease stage. The numeric filename defines the order used by CauNagi: `0.h5ad` is the first state, `1.h5ad` is the second state, and so on. A file may contain multiple cell types, but all cells in the same file should belong to the disease state represented by that file. Keep the disease-state order consistent with the values used in `disease_idx`.
+
+Every file must contain an expression matrix in `adata.X`, consistent `adata.var_names`, and a `CellType` column in `adata.obs`. Columns named in `concept_list` must also exist in `adata.obs`. For example, if the files represent `healthy`, `early_disease`, and `late_disease`, the corresponding observation column and mapping can be written as:
+
+```python
+stage_name = "disease_stage"
+disease_idx = {
+    "healthy": 0,
+    "early_disease": 1,
+    "late_disease": 2,
+}
+```
+
+The mapping values should match the numeric order of the input files. The same disease-state concept should be included in `concept_list` when it is used by the causal representation model.
 
 The causal concept matrix must have one extra row and column for the unexplained concept:
 
