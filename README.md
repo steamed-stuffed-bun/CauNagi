@@ -79,7 +79,7 @@ input_data/
 └── ...
 ```
 
-Each numbered `.h5ad` file represents one disease state or one disease stage. The numeric filename defines the order used by CauNagi: `0.h5ad` is the first state, `1.h5ad` is the second state, and so on. A file may contain multiple cell types, but all cells in the same file should belong to the disease state represented by that file. Keep the disease-state order consistent with the values used in `disease_idx`.
+Each numbered `.h5ad` file represents one disease state, with the filename defining its order; a file may contain multiple cell types, but all cells must belong to that state.
 
 Every file must contain an expression matrix in `adata.X`, consistent `adata.var_names`, and a `CellType` column in `adata.obs`. Columns named in `concept_list` must also exist in `adata.obs`. For example, if the files represent `healthy`, `early_disease`, and `late_disease`, the corresponding observation column and mapping can be written as:
 
