@@ -1,0 +1,37 @@
+gene,cascade_category,vexas_mechanism,mechanism_display,evidence_level,CTS,HPS,layer_consistency,overall_rank,display_order
+JUN,Cascade_Core_Uniform,UPR_Stress,UPR ER Stress,Indirect_Support,0.0010028058612141,0.7713142050953952,0.9477890193288812,1.0,1
+FOS,Cascade_Core_Uniform,UPR_Stress,UPR ER Stress,Indirect_Support,0.0004437724589407,0.782232229276375,0.9648749504698892,2.0,2
+SPI1,Cascade_Core_Uniform,Myeloid_Bias,Myeloid Bias,Direct_Validation,0.0002239114852847,0.8190613055104418,0.9750082288866934,3.0,3
+JUND,Cascade_Core_Uniform,UPR_Stress,UPR ER Stress,Indirect_Support,0.0001301282011274,0.8264949609287421,0.9809926785945948,4.0,4
+TCF12,Cascade_Core_Uniform,Lymphoid_Depletion,Lymphoid Depletion,Computational_Prediction,0.0238201125533846,0.8164022179569204,0.7454509729073817,5.0,5
+GATA2,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,4.912687885050282e-05,0.8002596365744159,0.9883255883927874,6.0,6
+GATA1,Cascade_Core_Uniform,Erythroid_Defect,Erythroid Defect,Computational_Prediction,0.0005974665113721,0.6476054705229369,0.9595378481404292,7.0,7
+TCF4,Cascade_Core_Uniform,Lymphoid_Depletion,Lymphoid Depletion,Computational_Prediction,0.0045933982308357,0.6901338101721979,0.8850466957226709,8.0,8
+EBF1,Cascade_Core_Uniform,Lymphoid_Depletion,Lymphoid Depletion,Computational_Prediction,0.0004863508621624,0.7166407467559099,0.9630840556412814,9.0,9
+PAX5,Cascade_Core_Uniform,Lymphoid_Depletion,Lymphoid Depletion,Direct_Validation,0.0018500700014534,0.7046032995937026,0.928437726229891,10.0,10
+EGR1,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0032822730428889,0.6817699361845235,0.9053971431938608,11.0,11
+IRF4,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0026199981453632,0.6196626036933138,0.9143007395044996,13.0,12
+MYC,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0018702992421613,0.6873954864357935,0.9280435874109242,15.0,13
+TBP,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0003183627171087,0.7568652219324004,0.9702249042564528,20.0,14
+TAF1,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.000287616304175,0.7797266379032214,0.9717986762599692,21.0,15
+CEBPB,Cascade_Core_Uniform,Myeloid_Bias,Myeloid Bias,Direct_Validation,0.0001201306722704,0.8385187919352987,0.9818085765786428,22.0,16
+YY1,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0007712728027531,0.7925672195153961,0.9540597471718122,23.0,17
+RAD21,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,8.173564485425278e-05,0.7974626375969947,0.9849774561539442,24.0,18
+CTCF,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0001888106985284,0.8195436127105993,0.9771219338692236,25.0,19
+GATA3,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0002407467377247,0.6505346938552312,0.974193301992595,26.0,20
+SMC3,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0002566427576369,0.7424821868967741,0.9733968628997464,29.0,21
+USF1,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0008249336560373,0.7896410037676832,0.951970177241342,30.0,22
+FOXA1,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0001536175737317,0.8011404760732975,0.9794196299110474,31.0,23
+MAX,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0002393891101628,0.7167355676952606,0.9742437727207376,33.0,24
+NFKB1,Cascade_Core_Uniform,NFkB_Signaling,NFkB Signaling,Direct_Validation,0.0004105267976871,0.7047590924750233,0.966410656735584,34.0,25
+E2F1,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0021396520388582,0.6544817931766108,0.922922151913501,36.0,26
+FOXA2,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0019925491741806,0.7277454052310098,0.9259675482943932,38.0,27
+MAFF,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0011376382063554,0.7609188444313204,0.9433891747257788,40.0,28
+TAL1,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0007243372838612,0.6382200567613235,0.9555803679862612,42.0,29
+STAT3,Cascade_Core_Uniform,JAK_STAT,JAK STAT Axis,Therapeutic_Evidence,0.0001853021646547,0.7893770472081412,0.9773458236122552,43.0,30
+MAFK,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0003447933904359,0.8147649435941182,0.9689764605718776,46.0,31
+MEF2A,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0014953228620191,0.6664521438609731,0.9364081271249448,56.0,32
+POLR2A,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0001307576173199,0.6153266510272267,0.9809612837228798,57.0,33
+HEY1,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0016685433442269,0.6844581699668072,0.9316406418732532,59.0,34
+EP300,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.000678953843247,0.6172630980308522,0.9565258008632276,66.0,35
+POL2,Cascade_Core_Uniform,Other,Other / Unclassified,Computational_Prediction,0.0007733928572409,0.6109016738575279,0.9540811057085188,133.0,36
