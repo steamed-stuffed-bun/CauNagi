@@ -93,6 +93,11 @@ concept_cdag = np.zeros(
 ## iDREM requirements
 
 `run_caunagi()` requires an iDREM directory containing `idrem.jar`, `example_settings.txt`, and the required Human or Mouse reference files, including TF-gene interactions and gene annotations. Java must be available on `PATH`.
+Install the iDREM to the source folder of UNAGI
+
+    Java To use iDREM, a version of Java 1.7 (64-bit) or later must be installed. If Java (64-bit) 1.7 or later is not currently installed, please refer to http://www.java.com for installation instructions.
+
+    JavaScript To enable the interactive visualization powered by Javascript. (The users are still able to run the software off-line, but Internet access is needed to view the result interactively.)
 
 ## Minimal usage
 
