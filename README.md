@@ -78,7 +78,6 @@ input_data/
 ├── 2.h5ad    # Another disease state or disease stage
 └── ...
 ```
-Each numbered .h5ad file represents one disease state, with the filename defining its order; a file may contain multiple cell types, but all cells must belong to that state.
 
 Each numbered `.h5ad` file represents one disease state, with the filename defining its order; a file may contain multiple cell types, but all cells must belong to that state.
 
@@ -192,9 +191,7 @@ Each iteration writes staged data, iDREM inputs/results, graph edges, representa
 ## Notes
 
 - Set `CUDA_VISIBLE_DEVICES` before importing the package when selecting a specific GPU.
-- The two distance modules are intentionally kept synchronized because different parts of the pipeline import each one.
 - A later iteration consumes the previous iteration's staged data and `geneWeight` layer.
-- Do not commit passwords, access tokens, private datasets, checkpoints, or iDREM reference archives.
 
 ## License
 
