@@ -196,3 +196,7 @@ Each iteration writes staged data, iDREM inputs/results, graph edges, representa
 ## License
 
 This project is released under the MIT License. See [`LICENSE`](LICENSE) for the full license text.
+
+## Full Paper
+
+To explore the implementation details and practical applications of CauNagi in depth, please visit the following link to read the original article: https://www.biorxiv.org/content/10.64898/2026.09.23.753348v1
